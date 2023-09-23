@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+body{
+    background-color:  #f6ece4;
+    margin: 0;
+    padding: 0;
+    font-family: 'Istok Web', sans-serif;
+background-size: cover;
+position: relative;
+    min-height: 100vh; 
+   
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+   font-family: cursive;
+   color: #050505;
+   margin-top: 10px;
+   
+}
+.xddd{
+    width: 99%;
+    height: 82px;
+    border-radius: 25px;
+}
+#logo1{
+    padding: 1px;
+    margin-left: 95%;
+    margin-top: 8px;
+    position: 100%;
+}
+#logo2{
+    
+        padding: 1px;
+        margin-left: 95%;
+        margin-top: -60px;
+        position: 100%;
+}
+
+#carro1{
+    width: 500px;
+    height: 360px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 30px;
+   
+}
+#carro2{
+    width: 500px;
+    height: 360px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+#carro3{
+    width: 500px;
+    height: 360px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+#vapor{
+margin-left: 300px;
+}
+#gasolina{
+margin-left: 500px;
+}
+#electricidad{
+    margin-left: 550px;
+}
+.carrosxd{
+display:flex;
+}
+h1,h2{
+    color: #000000;
+    text-align: center;
+}
+p{
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 20px;
+}
+#detrasvapor{
+    margin-right: 1220px;
+  margin-top: 170px;
+}
+#aver{
+    margin-left: 10%;
+  margin-top: -16%;
+width: 300px;
+  
+}
+#gasolina{
+    margin-top: -15%;
+    margin-left: 42%;
+    width: 300px;
+}
+#electricidad{
+    margin-top: -16%;
+  margin-left: 74%;
+  width: 300px;
+}
+img{
+    border: transparent;
+    
+}
+.menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #333;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        z-index: 999;
+}
+
+.menuxd {
+    cursor: pointer;
+}
+
+.linea {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.adentro {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.adentro li {
+    margin: 10px 0;
+}
+
+.adentro a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.adentro a:hover {
+    text-decoration: underline;
+}
+#boton1{
+    border: transparent; 
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Istok Web', sans-serif;
+    margin-left: 40%;
+    color: #000000;
+}
+footer {
+    position: absolute;
+    bottom: -106px;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    
+}
+#delfoter{
+    color: #fff;
+}
+#primero{
+    width: 1000px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#primercarrito{
+    width: 400px;
+    height: 400px;
+    margin-left: 790px;
+    border: 100px;
+}
+#parabajar{
+    margin-top: 100px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcas de Autos Hyperdeportivos</title>
+    <link rel="stylesheet" href="estilo2.css">
+	<script src="jquery-3.7.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".menuxd").click(function() {
+        $(".adentro").slideToggle();
+    });
+});
+
+$(document).ready(function(){
+    $("#holaferrari,#holalamborghini,#holapagani").hide();
+
+$("#ferrari,#lamborghini,#pagani").ready(function(){
+    $("#holaferrari,#holalamborghini,#holapagani").slideDown();
+});
+
+
+    })
+
+
+
+
+	</script>
+</head>
+<body>
+    <header>
+        <h1 id="titulito">Marcas de Autos Hyperdeportivos</h1>
+    </header>
+
+    <div class="menu">
+		<div class="menuxd">
+			<div class="linea"></div>
+			<div class="linea"></div>
+			<div class="linea"></div>
+		</div>
+		<ul class="adentro">
+			<li><a href="index.html">Principio</a></li>
+			<li><a href="hola.html">Pagina principal</a></li>
+			<li><a href="pagani.html">Marcas</a></li>
+			
+		</ul>
+	</div>
+
+    <main>
+        <section id="ferrari">
+            <h2>Ferrari</h2>
+            <p>Ferrari es una de las marcas de autos hyperdeportivos más icónicas del mundo. Fundada en 1947, Ferrari es conocida por su elegante diseño y su rendimiento excepcional.</p>
+            <img class="logo" src="ferrarilogo.png" alt="" width="200px" height="200px">
+            <br>
+            <img id="holaferrari" src="ferrari.jpg" alt="">
+        </section>
+
+        <section id="lamborghini">
+            <h2>Lamborghini</h2>
+            <p>Lamborghini es otra marca legendaria de autos hyperdeportivos. Fundada en 1963, Lamborghini es famosa por sus autos de alto rendimiento y diseño futurista.</p>
+            <img class="logo" src="lamborghinilogo.png" alt="" width="200px" height="200px">
+            <img id="holalamborghini" src="lamborghini.jpg" alt="">
+        </section>
+
+        <section id="pagani">
+            <h2>Pagani</h2>
+            <p>Pagani es una marca italiana de automóviles deportivos de alto rendimiento. Fundada en 1992 por Horacio Pagani, la compañía es conocida por su artesanía excepcional y sus diseños exclusivos. Cada automóvil Pagani es una obra maestra de ingeniería y estilo, y su atención al detalle es incomparable.</p>
+            <img class="logo" src="paganilogo.png" alt="" width="200px" height="200px">
+            <br>
+            <img id="holapagani" src="pagani.jpg" alt="">
+        </section>
+        
+    </main>
+<br>
+    <footer>
+        <p id="delfoter">Derechos mios &copy; 2023 sebitas el warrior</p>
+    </footer>
+</body>
+</html>

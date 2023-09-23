@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="estilo3.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>Pagina de Carros</title>
+    <script>
+        $(document).ready(function(){
+    $("#boton1").mouseover(function(){
+        $("#carro1").removeAttr("src","avapor.jpg");
+        $("#carro2").removeAttr("src","agasolina.gif");
+        $("#carro3").removeAttr("src","aelectricidad.gif");
+    });
+
+    $("#boton1").mouseout(function(){
+        $("#carro1").attr("src","avapor.jpg");
+        $("#carro2").attr("src","agasolina.gif");
+        $("#carro3").attr("src","aelectricidad.gif");
+    });
+
+    $("#aver, #gasolina, #electricidad").hide();
+
+    $("#boton1").mouseover(function(){
+        $("#aver, #gasolina, #electricidad").fadeToggle();
+    });
+
+    $("#boton1").mouseout(function(){
+        $("#aver, #gasolina, #electricidad").hide();
+    });
+});
+$(document).ready(function() {
+    $(".menuxd").click(function() {
+        $(".adentro").slideToggle();
+    });
+});
+$(document).ready(function() {
+    $("#primercarrito").hide();
+    $("#primero").click(function(){
+        $("#primercarrito").slideDown();
+        $("#primero").dblclick(function(){
+        $("#primercarrito").slideUp();
+    })
+})
+})
+
+
+        
+
+</script>
+    </script>
+</head>
+
+    <body>
+       
+        <div class="menu">
+            <div class="menuxd">
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+            </div>
+            <ul class="adentro">
+                <li><a href="Index.html">Principio</a></li>
+                <li><a href="pagani.html">Marcas</a></li>
+               
+                
+            </ul>
+        </div>
+        <nav>
+        <h1>Pagina principal</h1>
+        <h1>Aqui hablaremos de los autos y los carros</h1>
+        <button id="boton1">¡pasa aqui el mouse para saber mas!</button>
+        
+    </nav> 
+        <img id="carro1" src="avapor.jpg">
+        <img id="carro2" src="agasolina.gif">
+        <img id="carro3" src="aelectricidad.gif">
+        <p id="aver">Como su nombre lo sugiere, la máquina de vapor funciona gracias a la fuerza del vapor de agua calentado a alta presión. Esta tecnología convierte la energía termica (calor) a energía mecánica (Trabajo). La caldera calienta el agua hasta convertirla en vapor.</p>
+        <p id="gasolina">El motor de combustión interna consta de cilindros, pistones, inyectores de combustible y bujías. Combinados, estos componentes queman combustible y dejan salir los gases de escape de los cilindros. Al repetir el proceso, crea energía que impulsa el automóvil.</p>
+        <p id="electricidad">Un vehículo eléctrico funciona impulsado por uno o más motores eléctricos. Estos emplean la energía eléctrica que se almacena en las baterías recargables y la transforman en energía cinética. Esto es lo que los diferencia de los vehículos de combustión interna, cuyo motor funciona quemando combustible</p>
+        <p id="primero">El primer automóvil con motor de combustión interna se atribuye a Karl Friedrich Benz en la ciudad de Mannheim en 1886 con el modelo Benz Patent-Motorwagen. Poco después, otros pioneros como Gottlieb Daimler y Wilhelm Maybach presentaron sus modelos para ver como era da click y para cerrar doble click en el texto.</p>
+        <img id="primercarrito" src="primercarrito.jpg" alt="">
+        
+        
+        
+        <footer>
+            <p id="delfoter">Derechos mios &copy; 2023 sebitas el warrior</p>
+        </footer>
+        
+        
+        
+</body>
+</html>

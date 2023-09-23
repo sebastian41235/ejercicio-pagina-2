@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DM+Sans:ital,opsz@1,9..40&family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=DM+Sans:ital,opsz@1,9..40&family=Kenia&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body {
+    
+    background-color: #f1f1f1;
+    line-height: 1.6;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding: 20px;
+}
+section{
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    color: black;
+    font-size: 25px;
+    font-family: 'Black Ops One', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Kenia', cursive;
+}
+p{
+    color: black;
+    font-size:25px;
+    
+}
+img{
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+#ferrari {
+    background-color: #ff2800;
+    margin-top: 10px;
+    
+}
+
+#lamborghini {
+    background-color: #ffd700;
+    margin-top: 10px;
+    
+}
+
+#pagani {
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    
+}
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0; 
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+        padding: 20px;
+}
+.menuxd {
+cursor: pointer;
+}
+.linea {
+width: 25px;
+height: 2px;
+background-color: #fff;
+margin: 3px 0;
+}
+.adentro {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: none;
+}
+.adentro li {
+margin: 10px 0;
+}
+.adentro a {
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+}
+.adentro a:hover {
+text-decoration: underline;
+}
+#titulito{
+    text-align: center;
+}
+
+#delfoter{
+    color: #fff;
+}
+.logo{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
